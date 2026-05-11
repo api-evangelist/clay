@@ -1,0 +1,63 @@
+aid: clay
+name: Clay
+description: >-
+  Clay is a go-to-market platform that combines people and company data
+  enrichment from 150+ premium providers, AI research agents (Claygents),
+  intent signals, and workflow automation for sales, marketing, and revenue
+  operations teams. Clay exposes inbound HTTP API endpoints and webhooks so
+  external systems can push records into Clay tables, trigger enrichments,
+  and receive enriched data for CRM sync, lead scoring, and outbound
+  workflows.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Sales Intelligence
+  - Data Enrichment
+  - GTM
+  - Lead Generation
+  - Workflow Automation
+  - AI Agents
+  - Webhooks
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/clay/refs/heads/main/apis.yml
+created: '2026-05-11'
+modified: '2026-05-11'
+specificationVersion: '0.19'
+apis:
+  - aid: clay:http-api
+    name: Clay HTTP API
+    description: >-
+      Inbound HTTP API endpoints and per-table webhook sources that let
+      external systems push JSON records into Clay tables to trigger
+      enrichment, AI research, and downstream workflows, and pull or POST
+      enriched data via HTTP API actions inside Clay workflows.
+    humanURL: https://university.clay.com/docs/http-api-integration-overview
+    baseURL: https://api.clay.com
+    tags:
+      - HTTP API
+      - Webhooks
+      - Enrichment
+      - Tables
+      - Workflows
+    properties:
+      - type: Documentation
+        url: https://university.clay.com/docs/http-api-integration-overview
+      - type: Webhooks
+        url: https://university.clay.com/docs/webhook-integration-guide
+      - type: University
+        url: https://university.clay.com/
+
+common:
+  - type: Website
+    url: https://www.clay.com
+  - type: Documentation
+    url: https://university.clay.com/
+  - type: Pricing
+    url: https://www.clay.com/pricing
+  - type: Sign Up
+    url: https://app.clay.com/signup
+  - type: Community
+    url: https://community.clay.com/
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
