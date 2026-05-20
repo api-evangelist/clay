@@ -48,6 +48,8 @@ apis:
         url: https://university.clay.com/
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/grow-with-clay
   - type: Website
     url: https://www.clay.com
   - type: Documentation
