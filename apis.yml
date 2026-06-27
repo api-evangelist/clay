@@ -56,11 +56,11 @@ common:
     url: https://university.clay.com/
   - type: Pricing
     url: https://www.clay.com/pricing
-  - type: SignUp
+  - type: Signup
     url: https://app.clay.com/signup
   - type: Community
     url: https://community.clay.com/
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://app.clay.com/llms.txt
 maintainers:
   - FN: Kin Lane
