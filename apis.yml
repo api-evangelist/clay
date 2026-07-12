@@ -48,6 +48,8 @@ apis:
         url: https://university.clay.com/
 
 common:
+  - type: DomainSecurity
+    url: security/clay-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/grow-with-clay
   - type: Website
